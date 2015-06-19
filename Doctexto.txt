@@ -1,0 +1,26 @@
+$ git config --global user.name "Anton Serra Torta" 	 'usuari
+$ git config --global user.email "aserratorta@gmail.com" 'email
+$ git log		'autor dels commits.
+$ mkdir NovaCarpeta	'et crea una carpeta
+$ cd NovaCarpeta/	'et posiciona dins la carpeta
+$...			'ordre per crear l'arxiu html. Donat que ho desconec, copio un arxiu html directament a ProvaGid.
+$ ls -la		'contingut carpeta
+$ git init 		'et crea l'arxiu .git, indispesable per a fer el get add.
+$ git add (nomarxiu.ext)'et posa els arxius en una carpeta temporal (index) per tal de poder fer commit.
+$ git status		't'informa els canvis per fer commit
+$ git commit -m "comentari        'commit
+$ git log --oneline	'abreviació dels commits.
+
+'afegir un repositori remot.
+$ git remote add (nom, ex:bitbucket) https://aserratorta@bitbucket.org/aserratorta/provagid.git		'vincular el repositori remot de bitbucket al repositori local
+$ git remote -v 	'visualització de totes les connexions remotes.
+$ git push bitbucket master	'passar els arxius del repositori en local al remot.
+
+'clonar des d'un repositori remot al local.
+$ cd .. 	'surts de la carpeta on tens el teu repositori.
+$ git clone (url del repositori web)	'clonar
+
+
+
+Dubtes:
+1)Concepte de git add

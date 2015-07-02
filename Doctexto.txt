@@ -9,13 +9,17 @@ $ git init 		'et crea l'arxiu .git, indispesable per a fer el get add.
 $ git add (nomarxiu.ext)'et posa els arxius en una carpeta temporal (index) per tal de poder fer commit.
 $ git status		't'informa els canvis per fer commit
 $ git commit -m "comentari        'commit
+<<<<<<< HEAD
 $ git commit -am "comentari        'git add+comitt
 $ git log --oneline	'abreviació dels commits.
 $ git checkout 	'recuperar un arxiu borrat.
+=======
+$ git log --oneline	'abreviaciÃ³ dels commits.
+>>>>>>> devel
 
 'afegir un repositori remot.
 $ git remote add (nom, ex:bitbucket) https://aserratorta@bitbucket.org/aserratorta/provagid.git		'vincular el repositori remot de bitbucket al repositori local
-$ git remote -v 	'visualització de totes les connexions remotes.
+$ git remote -va 	'visualitzaciÃ³ de totes les connexions remotes.
 $ git push bitbucket master	'passar els arxius del repositori en local al remot.
 
 'clonar des d'un repositori remot al local.
@@ -23,7 +27,7 @@ $ cd .. 	'surts de la carpeta on tens el teu repositori.
 $ git clone (url del repositori web)	'clonar
 
 'actualitzar el repositori remot
-$ git pull (alias del repositori remot) (branca)	'això és el primer que s'ha de fer?
+$ git pull (alias del repositori remot) (branca)	'aixÃ² Ã©s el primer que s'ha de fer?
 
 
 

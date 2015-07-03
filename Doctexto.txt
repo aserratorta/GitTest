@@ -10,7 +10,7 @@ $ git add (nomarxiu.ext)'et posa els arxius en una carpeta temporal (index) per 
 $ git status		't'informa els canvis per fer commit
 $ git commit -m "comentari        'commit
 <<<<<<< HEAD
-$ git commit -am "comentari        'git add+comitt
+$ git commit -am "comentari        'git add+comi
 $ git log --oneline	'abreviació dels commits.
 $ git checkout 	'recuperar un arxiu borrat.
 =======
@@ -29,7 +29,7 @@ $ git clone (url del repositori web)	'clonar
 'actualitzar el repositori remot
 $ git pull (alias del repositori remot) (branca)	'aixï¿½ ï¿½s el primer que s'ha de fer?
 
-
+Proves amb sublime
 
 Dubtes:
 1)Concepte de git add

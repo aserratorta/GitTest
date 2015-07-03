@@ -27,7 +27,7 @@ $ cd .. 	'surts de la carpeta on tens el teu repositori.
 $ git clone (url del repositori web)	'clonar
 
 'actualitzar el repositori remot
-$ git pull (alias del repositori remot) (branca)	'això és el primer que s'ha de fer?
+$ git pull (alias del repositori remot) (branca)	'aix� �s el primer que s'ha de fer?
 
 
 

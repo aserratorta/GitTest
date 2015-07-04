@@ -10,7 +10,7 @@ $ git add (nomarxiu.ext)'et posa els arxius en una carpeta temporal (index) per 
 $ git status		't'informa els canvis per fer commit
 $ git commit -m "comentari        'commit
 <<<<<<< HEAD
-$ git commit -am "comentari        'git add+comi
+$ git commit -am "comentari        'git add+comit
 $ git log --oneline	'abreviació dels commits.
 $ git checkout 	'recuperar un arxiu borrat.
 =======
@@ -33,3 +33,5 @@ Proves amb sublime
 
 Dubtes:
 1)Concepte de git add
+
+Testing with branches (Anton)

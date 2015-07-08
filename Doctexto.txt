@@ -30,7 +30,7 @@ Dubtes:
 
 Testing with branches (Anton)
 
-sempre git merge posat a Anton cap a devel!!!
+MERGE
 1. després de l'últim commit d'anton canvio (checkout) a la branca devel
 2. git pull de devel
 3. faig un merge de la branca anton (git merge --no-ff anton)
@@ -38,5 +38,4 @@ sempre git merge posat a Anton cap a devel!!!
 5. git checkout anton
 
 RECORDA
-
 Si source tree no et deixa fer push --> menú tools --> Launch SSH agent  (i ja et deixa fer push)

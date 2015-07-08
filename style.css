@@ -1,0 +1,9 @@
+p.warning {
+    text-align: center;
+    color: red;
+}
+
+p.success {
+    text-align: center;
+    color: green;
+}

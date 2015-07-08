@@ -29,3 +29,10 @@ Dubtes:
 1)Concepte de git add
 
 Testing with branches (Anton)
+
+sempre git merge posat a Anton cap a devel!!!
+1. després de l'últim commit d'anton canvio (checkout) a la branca devel
+2. git pull de devel
+3. faig un merge de la branca anton (git merge --no-ff anton)
+4. git push de devel a origin
+5. git checkout anton

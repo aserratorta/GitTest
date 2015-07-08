@@ -9,13 +9,7 @@ $ git init 		'et crea l'arxiu .git, indispesable per a fer el get add.
 $ git add (nomarxiu.ext)'et posa els arxius en una carpeta temporal (index) per tal de poder fer commit.
 $ git status		't'informa els canvis per fer commit
 $ git commit -m "comentari        'commit
-<<<<<<< HEAD
-$ git commit -am "comentari        'git add+comi
-$ git log --oneline	'abreviaci� dels commits.
-$ git checkout 	'recuperar un arxiu borrat.
-=======
-$ git log --oneline	'abreviació dels commits.
->>>>>>> devel
+$ git log --oneline	'abreviació dels commits. 
 
 'afegir un repositori remot.
 $ git remote add (nom, ex:bitbucket) https://aserratorta@bitbucket.org/aserratorta/provagid.git		'vincular el repositori remot de bitbucket al repositori local
@@ -27,9 +21,11 @@ $ cd .. 	'surts de la carpeta on tens el teu repositori.
 $ git clone (url del repositori web)	'clonar
 
 'actualitzar el repositori remot
-$ git pull (alias del repositori remot) (branca)	'aix� �s el primer que s'ha de fer?
+$ git pull (alias del repositori remot) (branca)	'aixó és el primer que s'ha de fer?
 
 Proves amb sublime
 
 Dubtes:
 1)Concepte de git add
+
+Testing with branches (Anton)

@@ -36,3 +36,7 @@ sempre git merge posat a Anton cap a devel!!!
 3. faig un merge de la branca anton (git merge --no-ff anton)
 4. git push de devel a origin
 5. git checkout anton
+
+RECORDA
+
+Si source tree no et deixa fer push --> menú tools --> Launch SSH agent  (i ja et deixa fer push)
